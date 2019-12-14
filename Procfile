@@ -1,1 +1,1 @@
-web: node Logging.js
+worker: node Logging.js
