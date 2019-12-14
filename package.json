@@ -1,0 +1,15 @@
+{
+  "name": "logbot.v2",
+  "version": "1.0.0",
+  "description": "Logging Bot",
+  "main": "Logging.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
