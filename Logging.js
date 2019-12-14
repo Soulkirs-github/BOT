@@ -212,7 +212,7 @@ bot.on('guildMemberUpdate', function(guild, oldMember, newMember) {
 });
 
 acces_token = os.environ["BOT_TOKEN"]
-bot.login(TOKEN); 
+bot.login(acces_token); 
 
 function formatConsoleMessage(message) {
     return message.cleanContent.replace(new RegExp('\n', 'g'), '\n\t');
