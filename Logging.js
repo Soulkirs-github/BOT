@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
+const os
 
 const CHANNEL = 'log';
 const VERSION = '0.0.1';
-const TOKEN = 'Process.env';
 
 console.log('로거봇 버전:' + VERSION);
 console.log('The bots copyright is Heasy Official.\n');
@@ -211,7 +211,7 @@ bot.on('guildMemberUpdate', function(guild, oldMember, newMember) {
 
 });
 
-
+acces_token = os.environ["BOT_TOKEN"]
 bot.login(TOKEN); 
 
 function formatConsoleMessage(message) {
